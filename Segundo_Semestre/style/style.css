@@ -77,6 +77,25 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+@media screen and (max-width: 768px) {
+    header {
+        background-color: rgba(0, 50, 30, 0.9); 
+        padding: 15px; 
+        font-size: 14px; 
+    }
+
+    nav ul {
+        flex-wrap: nowrap; /* Mantém os itens sempre na mesma linha */
+        overflow-x: auto;
+        white-space: nowrap;
+        padding: 5px;
+    }
+
+    nav ul li a {
+        font-size: 12px; /* Reduz um pouco o tamanho do texto */
+        padding: 6px 10px;
+    }
+}
 footer { 
     text-align: center;
     background-color: rgba(0, 17, 11, 0.8);
