@@ -85,14 +85,14 @@ nav ul li a:hover {
     }
 
     nav ul {
-        flex-wrap: nowrap; /* Mantém os itens sempre na mesma linha */
+        flex-wrap: nowrap; 
         overflow-x: auto;
         white-space: nowrap;
         padding: 5px;
     }
 
     nav ul li a {
-        font-size: 12px; /* Reduz um pouco o tamanho do texto */
+        font-size: 12px;
         padding: 6px 10px;
     }
 }
